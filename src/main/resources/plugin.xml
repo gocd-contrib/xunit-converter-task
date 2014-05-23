@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<go-plugin id="xunit.converter.task.plugin" version="1">
+    <about>
+        <name>XUnit Converter Task Plugin</name>
+        <version>1.0</version>
+        <target-go-version>14.1.0</target-go-version>
+        <description>
+            Thoughtworks Go plugin to convert test reports to XUnit format
+        </description>
+        <vendor>
+            <name>ThoughtWorks Go Team</name>
+            <url>www.thoughtworks.com</url>
+        </vendor>
+    </about>
+</go-plugin>

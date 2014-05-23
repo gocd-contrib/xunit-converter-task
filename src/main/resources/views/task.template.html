@@ -1,0 +1,16 @@
+<div class="form_item_block">
+  <label>Converter Type:<span class="asterisk">*</span></label>
+  <select ng-model="ConverterType">
+    <option value="jsunit">JsUnit</option>
+  </select>
+</div>
+<div class="form_item_block">
+  <label>Input Directory:<span class="asterisk">*</span></label>
+  <input type="text" ng-model="InputDirectory" ng-required="true" />
+  <span class="form_error" ng-show="GOINPUTNAME[InputDirectory].$error.server">{{ GOINPUTNAME[InputDirectory].$error.server }}</span>
+</div>
+<div class="form_item_block">
+  <label>Output Directory:<span class="asterisk">*</span></label>
+  <input type="text" ng-model="OutputDirectory" ng-required="true" />
+  <span class="form_error" ng-show="GOINPUTNAME[OutputDirectory].$error.server">{{ GOINPUTNAME[OutputDirectory].$error.server }}</span>
+</div>
