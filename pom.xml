@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <go.version>14.1.0</go.version>
+        <go.version>14.2.0</go.version>
     </properties>
 
     <licenses>
@@ -41,7 +41,7 @@
         <dependency>
             <groupId>com.thoughtworks.go</groupId>
             <artifactId>xunit-converter</artifactId>
-            <version>1.0</version>
+            <version>1.1</version>
         </dependency>
 
         <dependency>
