@@ -15,3 +15,15 @@ Thoughtworks Go plugin to convert test reports to XUnit format.
 * Select 'type' of original test report, 'input directory' containing original reports & 'output directory' where the plugin should write the XUnit format reports into
 * Make sure you select 'RunIf Conditions' to 'Any', so the plugin converts reports even if tests fail.
 * Add the ouput directory of plugin as 'Test Artifact' in Artifacts tab
+
+*Development:*
+
+```
+git clone https://github.com/srinivasupadhya/xunit-converter
+cd xunit-converter
+mvn clean install -DskipTests
+cd ..
+git clone https://github.com/srinivasupadhya/xunit-converter-task
+cd xunit-converter-task
+mvn clean install -DskipTests
+```
