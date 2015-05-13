@@ -11,6 +11,7 @@ Thoughtworks Go plugin to convert test reports to XUnit format.
 
 ##Installation:
 
+<<<<<<< HEAD
 1.  Download jar from releases & place it in `<go-server-location>/plugins/external` & restart Go Server
 
 2. The converter will now be available in the task selector drop down menu
@@ -56,6 +57,19 @@ I'm purposefully trying to be as basic as possible here since I had a lot of tro
 * Maven - I'm using [Maven 3.3.3](http://maven.apache.org/download.cgi)
 * [xunit-converter](https://github.com/srinivasupadhya) <b>BUT</b> you might need the [xunit-converter (forked)](https://github.com/nhudacin/xunit-converter) from my forked repo which supports MsTest conversions
 * xunit-converter & xunit-converter-task repos must be in the same directory
+
+```
+cd xunit-converter
+mvn clean install -DskipTests
+cd ..
+=======
+* Download jar from releases & place it in `<go-server-location>/plugins/external` & restart Go Server.
+* Select 'XUnit Converter' in Admin -> Pipeline Configuration -> Stage Configuration -> Job Configuration -> Task listing drop-down
+* Select 'type' of original test report, 'input directory' containing original reports & 'output directory' where the plugin should write the XUnit format reports into
+* Make sure you select 'RunIf Conditions' to 'Any', so the plugin converts reports even if tests fail.
+* Add the ouput directory of plugin as 'Test Artifact' in Artifacts tab
+
+*Development:*
 
 ```
 cd xunit-converter
