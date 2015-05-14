@@ -27,8 +27,10 @@ public class XUnitConverterTaskExecutor implements TaskExecutor {
 
         try {
             new TestReportConverter().convert(converterType, new File(taskContext.workingDir() + "/" + inputDirectory), new File(taskContext.workingDir() + "/" + outputDirectory));
+            console.printLine("Conversion finished");
             return ExecutionResult.success("done.");
         } catch (Exception e) {
+            console.printLine("Failed to convert. Message: " + e.getMessage());
             return ExecutionResult.failure("Failed to convert. Message: " + e.getMessage());
         }
     }
