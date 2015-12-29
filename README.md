@@ -47,14 +47,13 @@ Notice that the output file name is the same name as the input file, including t
 
 
 ##Project Contribution
-I'm purposefully trying to be as basic as possible here since I had a lot of trouble setting up and developing in this project, not because there was anything wrong with the project itself but because I am so new to java development.
 
 ###Prerequisites
 * JavaIDE - I'm using IntellJ IDEA (14.1.2)
 * JavaJDK version 1.7 +
 * JAVA_HOME environment variable correctly setup
 * Maven - I'm using [Maven 3.3.3](http://maven.apache.org/download.cgi)
-* [xunit-converter](https://github.com/srinivasupadhya) <b>BUT</b> you might need the [xunit-converter (forked)](https://github.com/nhudacin/xunit-converter) from my forked repo which supports MsTest conversions
+* [xunit-converter](https://github.com/srinivasupadhya) 
 * xunit-converter & xunit-converter-task repos must be in the same directory
 
 ```
