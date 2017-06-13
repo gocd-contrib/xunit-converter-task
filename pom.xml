@@ -6,16 +6,16 @@
 
     <groupId>com.thoughtworks.go</groupId>
     <artifactId>xunit-converter-task</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>XUnit Converter</name>
-    <description>Thoughtworks Go plugin to convert test reports to XUnit format</description>
-    <url>https://github.com/srinivasupadhya/xunit-converter-task</url>
+    <description>Thoughtworks GoCD plugin to convert test reports to XUnit format</description>
+    <url>https://github.com/gocd-contrib/xunit-converter-task</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <go.version>14.4.0</go.version>
+        <go.version>16.6.0</go.version>
     </properties>
 
     <licenses>
@@ -27,7 +27,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/srinivasupadhya/xunit-converter</url>
+        <url>https://github.com/gocd-contrib/xunit-converter</url>
     </scm>
 
     <dependencies>
@@ -61,6 +61,11 @@
             <artifactId>mockito-core</artifactId>
             <version>1.9.5</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.5</version>
         </dependency>
     </dependencies>
 
