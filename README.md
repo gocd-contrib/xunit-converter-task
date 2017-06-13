@@ -11,7 +11,7 @@ GoCD plugin to convert test reports to XUnit format.
 
 ## Installation:
 
-1.  Download jar from releases & place it in `<go-server-location>/plugins/external` & restart Go Server
+1. Download jar from releases & place it in `<go-server-location>/plugins/external` & restart Go Server
 
 2. The converter will now be available in the task selector drop down menu
 
@@ -47,14 +47,12 @@ Notice that the output file name is the same name as the input file, including t
 
 
 ## Project Contribution
-I'm purposefully trying to be as basic as possible here since I had a lot of trouble setting up and developing in this project, not because there was anything wrong with the project itself but because I am so new to java development.
 
 ### Prerequisites
-* JavaIDE - I'm using IntellJ IDEA (14.1.2)
-* JavaJDK version 1.7 +
+* Java - JDK version 1.8+
 * JAVA_HOME environment variable correctly setup
-* Maven - I'm using [Maven 3.3.3](http://maven.apache.org/download.cgi)
-* [xunit-converter](https://github.com/srinivasupadhya) <b>BUT</b> you might need the [xunit-converter (forked)](https://github.com/nhudacin/xunit-converter) from my forked repo which supports MsTest conversions
+* Maven 3.x - [Maven 3.3.3 should work](http://maven.apache.org/download.cgi)
+* [xunit-converter](https://github.com/gocd-contrib/xunit-converter)
 * xunit-converter & xunit-converter-task repos must be in the same directory
 
 ```
@@ -67,13 +65,13 @@ mvn clean install -DskipTests
 
 ## Contributing
 
-We encourage you to contribute to Go. For information on contributing to this project, please see our [contributor's guide](http://www.go.cd/contribute).
-A lot of useful information like links to user documentation, design documentation, mailing lists etc. can be found in the [resources](http://www.go.cd/community/resources.html) section.
+We encourage you to contribute to GoCD. For information on contributing to this project, please see our [contributor's guide](http://www.gocd.org/contribute).
+A lot of useful information like links to user documentation, design documentation, mailing lists etc. can be found in the [resources](http://www.gocd.org/community/resources.html) section.
 
 ## License
 
 ```plain
-Copyright 2015 ThoughtWorks, Inc.
+Copyright 2017 ThoughtWorks, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
