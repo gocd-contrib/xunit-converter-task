@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <go.version>16.6.0</go.version>
+        <go.version>19.5.0</go.version>
     </properties>
 
     <licenses>
