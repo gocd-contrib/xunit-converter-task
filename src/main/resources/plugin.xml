@@ -2,8 +2,8 @@
 <go-plugin id="xunit.converter.task.plugin" version="1">
     <about>
         <name>XUnit Converter Task Plugin</name>
-        <version>1.0</version>
-        <target-go-version>16.6.0</target-go-version>
+        <version>1.1</version>
+        <target-go-version>21.1.0</target-go-version>
         <description>
             Thoughtworks GoCD plugin to convert test reports to XUnit format
         </description>
